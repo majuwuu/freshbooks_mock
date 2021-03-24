@@ -1,0 +1,138 @@
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+}
+
+h2{
+    margin: 0;
+}
+
+p{
+    margin:0;
+}
+
+div > h2{
+    font-size: 1rem;
+    font-weight: lighter;
+}
+
+div > i {
+    font-size: 0.8rem;
+    margin: 2px 0 0 2px;
+    }
+
+#promotion-discount{
+    max-height: 100px;
+    width: 100%;
+    background-color: #062942;
+    text-align: center;
+    font-size: 1.125rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 0px;
+}
+
+#promotion-discount > p > span{
+    font-weight: bolder;
+}
+
+#promotion-discount > p > a{
+    color: #efc100;
+    font-weight: bolder;
+}
+
+header {    
+    display: flex;
+    flex-direction: row;
+    height: 72px;
+    width: 100%;
+    padding: 16px 0px;    
+}
+.app-container{
+    width: 95%;
+    margin: 0 auto 0 auto;
+}
+
+.header-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 76px;
+    background-color: gray;
+}
+
+.nav-option{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: 30px;
+    background-color: gray;
+    margin: 30px 20px;
+}
+
+#who{
+    width: 80px;
+}
+
+.nav-option:first-child{
+    margin-top: 25px;
+}
+.option{
+    margin-top: 5px;
+}
+
+.right-option{
+    display: flex;
+    flex-basis: 60%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    font-weight: 500;
+    font-size: .8125rem;
+    line-height: 2;
+}
+
+.right-option > div {
+    margin: 0px 10px;
+}
+
+/**mas tardeeeeeeee **/
+
+
+#home{
+    display: inline-flex;
+    width: 121px;
+    height: 29,656px;
+}
+
+
+.show-info{
+list-style: none;
+display: none;
+}
+
+.show-resources{
+list-style: none;
+display: none;
+}
+
+#login-button > a > button{
+    display: inline-flex;
+    background-color:#85C525;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0,5rem;
+    color: white;
+    border-radius: 8px;
+    border-style: none;
+    padding: 10px 12px;
+    margin: 0px 10px 0px 0px;
+}
+   
+#join{
+    align-items: flex-start;
+}
+      
+#banner{
+   width:100% 
+}
