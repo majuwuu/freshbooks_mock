@@ -10,10 +10,24 @@ h2{
 p{
     margin:0;
 }
-
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+    color: #0d83dd;
+}
 div > h2{
     font-size: 1rem;
     font-weight: lighter;
+}
+button{
+    border: 0;
+    background-color: transparent;
+    color: white;
+    font-size: medium;
 }
 
 div > i {
@@ -58,7 +72,10 @@ header {
     flex-direction: row;
     width: 100%;
     height: 76px;
-    background-color: gray;
+    background-color:white;
+    padding: 10px 30px;
+    border-bottom: 1px solid rgb(228, 228, 228);
+    left: 222px;
 }
 
 .nav-option{
@@ -66,10 +83,23 @@ header {
     flex-direction: row;
     width: auto;
     height: 30px;
-    background-color: gray;
+    background-color:white;
     margin: 30px 20px;
 }
-
+#subclass-feature{
+    position: absolute;
+    width: 300px;
+    height: auto;
+    background-color:white;
+    top:100px;
+    border-radius: 8px;
+    border: 1px solid rgb(228, 228, 228);
+}
+#subclass-feature > li{
+    display: inline-block;
+    list-style: none;
+    margin: 20px;
+}
 #who{
     width: 80px;
 }
@@ -97,15 +127,28 @@ header {
     margin: 0px 10px;
 }
 
-/**mas tardeeeeeeee **/
+#call{
+   color: white;
+   padding: 1px 3px;
+   background-color:#0d83dd;
+   border-radius: 6px;
+   font-size: smaller;
+}
 
+
+
+#button{
+    background-color: #85c525;
+    padding: 5px 7px;
+    border-radius: 8px;
+    background-color: #85c525;
+}
 
 #home{
     display: inline-flex;
     width: 121px;
     height: 29,656px;
 }
-
 
 .show-info{
 list-style: none;
@@ -117,17 +160,6 @@ list-style: none;
 display: none;
 }
 
-#login-button > a > button{
-    display: inline-flex;
-    background-color:#85C525;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 0,5rem;
-    color: white;
-    border-radius: 8px;
-    border-style: none;
-    padding: 10px 12px;
-    margin: 0px 10px 0px 0px;
-}
    
 #join{
     align-items: flex-start;
